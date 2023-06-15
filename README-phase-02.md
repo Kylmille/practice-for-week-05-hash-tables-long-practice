@@ -1,6 +1,6 @@
 # Intermediate Phase 2: Hash table practice problems
 
-For each of these problems, you can use a hash table (either an `object` or
+For each onpm testf these problems, you can use a hash table (either an `object` or
 `set`) to solve the problem in `O(n)` time. Note that once you have a working
 solution, the specs will run a test with an input of 1 million inputs. Your
 code should return in under 2 seconds with optimal time complexity.
