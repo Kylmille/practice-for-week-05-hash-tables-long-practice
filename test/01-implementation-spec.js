@@ -73,9 +73,9 @@ describe ('Phase 1 - Hash table implementation', function () {
     hashTable.insert("key13", "value13");
     hashTable.insert("key19", "value19");
 
-    expect(hashTable.data[3].key).to.equal("key19")
-    expect(hashTable.data[3].value).to.equal("value19")
-    expect(hashTable.data[3].next.key).to.equal("key13")
+    expect(hashTable.data[0].key).to.equal("key19")
+    expect(hashTable.data[0].value).to.equal("value19")
+    expect(hashTable.data[0].next.key).to.equal("key13")
     expect(hashTable.data[3].next.value).to.equal("value13")
     expect(hashTable.data[3].next.next.key).to.equal("key4")
     expect(hashTable.data[3].next.next.value).to.equal("value4")
